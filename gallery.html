@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Harpreet  PhotoGraphy</title>
+	
+	<style>
+		body {
+		
+		color: #000000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		margin: 0;
+		min-width: 960px;
+		padding: 0;
+		}
+		a {
+			outline: none;
+		}
+		img {
+			border: 0;
+		}
+		p, ul {
+			margin: 0;
+		}
+		p a {
+			color: #000000;
+		}
+		p a:hover {
+			color: #623e04;
+		}
+		#page {
+		
+			min-height: 500px;
+		}
+		#header,
+		#body {
+			margin: 0 auto;
+			width: 960px;
+		}
+		#header ul {
+			list-style: none;
+			overflow: hidden;
+			padding: 0 0 35px;
+			text-align: center;
+		}
+		#header ul li {
+			display: inline-block;
+			height: 64px;
+			margin: 0 9px;
+		}
+		#header ul li a {
+			color: #000000;
+			display: block;
+			font-style: italic;
+			font-weight: bold;
+			letter-spacing: 1px;
+			line-height: 64px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+		
+		}
+		#header ul li a span {
+			cursor: pointer;
+			display: block;
+			height: 64px;
+			padding: 0 20px 0 15px;
+		}
+		#header ul li.current a {
+		
+			color: #007ffb;
+			text-shadow: none;
+		}
+		
+		#header a#logo {
+			display: block;
+			text-align: center;
+		}
+		#body {
+			min-height: 600px;
+			padding: 0 0 25px;
+		}
+		
+		#footer {
+		
+			height: 215px;
+		}
+		#footer div {
+			margin: 0 auto;
+			padding: 80px 10px 0;
+			width: 940px;
+		}
+		#footer div div {
+			line-height: 26px;
+			overflow: hidden;
+			padding: 0 0 18px;
+		}
+		#footer div div span {
+			float: left;
+			font-weight: bold;
+			line-height: 26px;
+			text-transform:  uppercase;
+		}
+		
+		#footer div p {
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		
+		@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+
+		
+
+		.gallery {
+		  width: 940px;
+		  margin: 0 auto;
+		  padding: 5px;
+		  background: #fff;
+		  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+		}
+
+		.gallery > div {
+		  position: relative;
+		  float: left;
+		  padding: 5px;
+		}
+
+		.gallery > div > img {
+		  display: block;
+		  width: 300px;
+		  transition: .1s transform;
+		  transform: translateZ(0); /* hack */
+		}
+
+		.gallery > div:hover {
+		  z-index: 1;
+		}
+
+		.gallery > div:hover > img {
+		  transform: scale(1.7,1.7);
+		  transition: .3s transform;
+		}
+
+		.cf:before, .cf:after {
+		  display: table;
+		  content: "";
+		  line-height: 0;
+		}
+
+		.cf:after {
+		  clear: both;
+		}
+
+		#body .gallery div img{
+		width:300px;
+		height:200px;
+		}
+			
+		#footer div div a img{
+
+		height:50px; 
+		width:50px;
+		}	
+	</style>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<ul>
+				<li>
+					<a href="index.html"><span>Home</span></a>
+				</li>
+				<li>
+					<a href="resume.html"><span>Resume</span></a>
+				</li>
+			
+				<li>
+					<a href="work.html"><span>Skills</span></a>
+				</li>
+                <li class="current">
+					<a href="gallery.html"><span>Gallery</span></a>
+				</li>
+                <li>
+					<a href="contact.html"><span>Contact</span></a>
+				</li>
+			</ul>
+			<a href="index.html" id="logo"><img src="logo.jpg" alt="Logo"></a>
+		</div>
+
+
+
+
+
+
+		<div id="body">
+			<div class="gallery cf">
+			  <div>
+				<img alt="" src="1.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="2.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="3.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="4.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="5.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="6.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="7.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="8.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="9.jpg" />
+			  </div>
+			   <div>
+				<img alt="" src="ocean2.jpg" />
+			  </div>
+			   <div>
+				<img alt="" src="ocean3.jpg" />
+			  </div>
+			   <div>
+				<img alt="" src="ocean4.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="17.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="18.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="19.jpg" />
+			  </div>
+			  <div>
+				<img alt="" src="20.jpg" />
+			  </div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div>
+				<div>
+					<span>Follow:</span><br>
+					<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="images/fb.png" alt="fb1"/></a>
+					<a href="https://twitter.com/" target="_blank" id="twitter"><img src="images/twitter.png" alt="twit1"/></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank" id="insta"><img src="images/insta.gif" alt="insta1"/></a>
+				</div>
+				<p>
+					&copy; Copyright 2018. All rights reserved &reg;
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

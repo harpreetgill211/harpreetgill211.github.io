@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Harpreet  PhotoGraphy</title>
+	
+	<style>
+			body {
+			
+			color: #000000;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			margin: 0;
+			min-width: 960px;
+			padding: 0;
+			
+			}
+ 
+			a {
+				outline: none;
+			}
+			img {
+				border: 0;
+			}
+			p, ul {
+				margin: 0;
+			}
+			p a {
+				color: #000000;
+			}
+			p a:hover {
+				color: #623e04;
+			}
+			#page {
+				
+				min-height: 400px;
+			}
+
+			#header,
+			#body {
+				margin: 0 auto;
+				width: 960px;
+			}
+			#header ul {
+				list-style: none;
+				overflow: hidden;
+				padding: 0 0 35px;
+				text-align: center;
+			}
+			#header ul li {
+				display: inline-block;
+				height: 64px;
+				margin: 0 9px;
+			}
+			#header ul li a {
+				color: #000000;
+				display: block;
+				font-style: italic;
+				font-weight: bold;
+				letter-spacing: 1px;
+				line-height: 64px;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				
+			}
+			#header ul li a span {
+				cursor: pointer;
+				display: block;
+				height: 64px;
+				padding: 0 20px 0 15px;
+			}
+			#header ul li.current a {
+			
+				color: #007ffb;
+				text-shadow: none;
+			}
+			#header ul li.current a span {
+				background: url(../images/bg-menu-first.png) no-repeat left top;
+			}
+			#header a#logo {
+				display: block;
+				text-align: center;
+			}
+
+			#body {
+				min-height: 550px;
+				padding: 0 0 25px;
+			}
+			#footer {
+			background: url(../images/bg-pattern-bottom.png) no-repeat center bottom;
+			height: 215px;
+			}
+			#footer div {
+				margin: 0 auto;
+				padding: 80px 10px 0;
+				width: 940px;
+			}
+			#footer div div {
+				line-height: 26px;
+				overflow: hidden;
+				padding: 0 0 18px;
+			}
+			#footer div div span {
+				float: left;
+				font-weight: bold;
+				line-height: 26px;
+				text-transform:  uppercase;
+			}
+			
+			#footer div div a img{
+
+			height:50px; 
+			width:50px;
+			}
+		
+			#footer div p {
+				font-size: 12px;
+				line-height: 20px;
+			}
+			*{
+			padding:auto;
+			margin:auto;
+			}
+
+			input[type=text], select, textarea {
+				width: 100%; 
+				padding: 12px;   
+				border: 1px solid #ccc; 
+				border-radius: 4px; 
+				box-sizing: border-box; 
+				margin-top: 6px; 
+				margin-bottom: 16px; 
+				resize: vertical 
+			}
+
+			/* Style the submit button with a specific background color etc */
+			input[type=submit] {
+				background-color: #4CAF50;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			/* When moving the mouse over the submit button, add a darker green color */
+			input[type=submit]:hover {
+				background-color: #45a049;
+			}
+
+			/* Add a background color and some padding around the form */
+			.container {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+				max-width:500px;
+			display:block;
+			float:left;
+			height:540px;
+			}
+			#main{
+				width:950px;
+				height:600px;
+				margin:auto;
+				padding:40px;
+				   
+			}
+			#information {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+				margin-left:20px;
+				max-width:300px;
+				height:540px;
+				display:block;
+				float:left;
+			}
+
+			#fourth a img{
+			margin-left:10px;
+			}
+			.content{
+				text-align:justify;
+				padding:8px;
+				color:black;
+				font-family:"Courier New", Courier, monospace;
+				font-style:italic;
+			}
+
+			.title{
+				color:#006633;
+				Font-size:20px;
+				font-weight:bold;
+				padding:5px;
+				Font-family:Lucida Bright,Georgia,serif; 
+			}
+
+			#first
+			{
+				height:100px;
+			}
+			#second
+			{
+				height:100px;
+				
+					
+			#third
+			{
+				height:150px;
+			}
+			
+			#footer div div a img{
+
+height:50px; 
+width:50px;
+}
+	</style>
+</head>
+
+<body>
+	<div id="page">
+		<div id="header">
+			<ul>
+				<li>
+					<a href="index.html"><span>Home</span></a>
+				</li>
+				<li>
+					<a href="resume.html"><span>Resume</span></a>
+				</li>
+				
+				<li>
+					<a href="work.html"><span>Skills</span></a>
+				</li>
+                <li>
+					<a href="gallery.html"><span>Gallery</span></a>
+				</li>
+                <li class="current">
+					<a href="contact.html"><span>Contact</span></a>
+				</li>
+			</ul>
+			<a href="index.html" id="logo"><img src="logo.jpg" alt="Logo"></a>
+		</div>
+		
+		<div id="body">
+		
+			<div class="container">
+				<form action="mailto:nitinsui555@gmail.com">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="australia">Australia</option>
+						<option value="canada">Canada</option>
+						<option value="usa">USA</option>
+					</select>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div id="information">
+				<div id="first">
+					<p class="title">E-Mail </p>
+					<p class="content">harpreetgill11021@gmail.com</p>
+				</div>
+				<div id="second">
+					<p class="title">Telephone </p>
+					
+					<p class="content">647-220-6969</p>
+				</div>
+				<div id="third">
+					<p class="title">Address </p>
+					<p class="content">Vasde Canada Vich Yaar Jundi De..Yaaran Naal Hi Uthde Aan, Yaaran Naal Hi Behnde 
+										   Aan, Tere Wargian Fukrian To Door Rehne Aan... </p>
+				</div>
+				<div id="fourth">
+					<a href="https://www.google.com/maps/place/7025+Chigwel+Ct,+Mississauga,+ON+L4T+1N3/@43.7220853,-79.6255759,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3bbec24be1d7:0xc1673c9c6e55fe53!8m2!3d43.7220853!4d-79.6233872" target="_blank"><img src="map.jpg" style="height:180px; width:270px;" alt="map"/></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div>
+				<div>
+					<span>Follow:</span><br>
+					<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="fb.png" alt="fb1"/></a>
+					<a href="https://twitter.com/" target="_blank" id="twitter"><img src="twitter.png" alt="twit1"/></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank" id="insta"><img src="insta.gif" alt="insta1"/></a>
+				</div>
+				<p>
+					&copy; Copyright 2018. All rights reserved &reg;
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

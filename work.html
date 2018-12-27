@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Harpreet  PhotoGraphy</title>
+	
+	<style>
+		body {
+	
+		color: #000000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		margin: 0;
+		min-width: 960px;
+		padding: 0;
+		}
+		a {
+			outline: none;
+		}
+		img {
+			border: 0;
+		}
+		p, ul {
+			margin: 0;
+		}
+		p a {
+			color: #000000;
+		}
+		p a:hover {
+			color: #623e04;
+		}
+		#page {
+			min-height: 500px;
+		}
+		#header,
+		#body {
+			margin: 0 auto;
+			width: 960px;
+		}
+		#header ul {
+			list-style: none;
+			overflow: hidden;
+			padding: 0 0 35px;
+			text-align: center;
+		}
+		#header ul li {
+			display: inline-block;
+			height: 64px;
+			margin: 0 9px;
+		}
+		#header ul li a {
+			color: #000000;
+			display: block;
+			font-style: italic;
+			font-weight: bold;
+			letter-spacing: 1px;
+			line-height: 64px;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+	
+		}
+		#header ul li a span {
+			cursor: pointer;
+			display: block;
+			height: 64px;
+			padding: 0 20px 0 15px;
+		}
+		#header ul li.current a {
+	
+			color: #007ffb;
+			text-shadow: none;
+		}
+		
+		#header a#logo {
+			display: block;
+			text-align: center;
+		}
+		#body {
+			min-height: 700px;
+			padding: 0 0 25px;
+		}
+		#body div.blog,
+		#body div#contact {
+			overflow: hidden;
+			padding: 150px 20px 0;
+		}
+		#body div.blog img {
+			display: block;
+			margin: 30px 0 10px;
+		}
+		#body div.blog p,
+		#body div#contact p {
+			line-height: 30px;
+			text-align: justify;
+		}
+		#body div.blog div#content {
+			float: left;
+			width: 660px;
+		}
+		#body div.blog div#content h2 a {
+			color: #000000;
+			text-decoration: none;
+		}
+		#body div.blog div#sidebar {
+			float: right;
+			width: 230px;
+		}
+		#body div.blog div#sidebar div {
+			padding: 0 0 20px;
+		}
+		#body div.blog div#sidebar div h3 {
+			font-size: 14px;
+			line-height: 30px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		#subhead {
+			font-size: 24px;
+			font-style: italic;
+			letter-spacing: 1px;
+			margin: 0;
+			padding: 0 0 10px 15px;
+			text-transform: uppercase;
+		}
+		#body div.blog div#sidebar div#recentpost ul {
+			list-style: none;
+			padding: 0;
+		}
+		#body div.blog div#sidebar div#recentpost ul li {
+			border-top: 1px solid #000000;
+			padding: 15px 0;
+		}
+		#body div.blog div#sidebar div#recentpost ul li h2 {
+			font-size: 14px;
+			letter-spacing: 0.05em;
+			line-height: 30px;
+			margin: 0;
+		}
+		#body div.blog div#sidebar div#recentpost ul li a img {
+			margin: 10px 0;
+		}
+		#body div.blog div#sidebar div#recentpost ul li:first-child {
+			border: 0;
+			padding: 0 0 10px;
+		}
+		#body div.blog div#sidebar div#archive ul {
+			padding: 0 0 0 15px;
+		}
+		#body div.blog div#sidebar div#archive ul li {
+			line-height: 30px;
+		}
+		#body div.blog div#sidebar div#archive ul li a,
+		#body div#contact p a.email:hover,
+		#body div.blog div#sidebar div#recentpost ul li h2 a {
+			color: #000000;
+			text-decoration: none;
+		}
+		#body div.blog div#sidebar div#archive ul li a:hover,
+		#body div.blog p a:hover,
+		#body div#contact p a:hover,
+		#body div.blog div#sidebar div#recentpost ul li h2 a:hover {
+			text-decoration: underline;
+		}
+		table{
+			width: 50%;
+			margin-top: 20px;
+		}
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 5px;
+			text-align: left;
+		}
+		#footer {
+		
+			height: 215px;
+		}
+		#footer div {
+			margin: 0 auto;
+			padding: 80px 10px 0;
+			width: 940px;
+		}
+		#footer div div {
+			line-height: 26px;
+			overflow: hidden;
+			padding: 0 0 18px;
+		}
+		#footer div div span {
+			float: left;
+			font-weight: bold;
+			line-height: 26px;
+			text-transform:  uppercase;
+		}
+	
+		#footer div p {
+			font-size: 12px;
+			line-height: 20px;
+		}
+		
+		#footer div div a img{
+
+		height:50px; 
+		width:50px;
+		}
+		
+		#sidebar #recentpost ul li img{
+		height:160px; 
+		width:160px;
+		border-radius:10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<ul>
+				<li>
+					<a href="index.html"><span>Home</span></a>
+				</li>
+				<li>
+					<a href="resume.html"><span>Resume</span></a>
+				</li> 
+				
+				<li class="current">
+					<a href="work.html"><span>Skills</span></a>
+				</li>
+                <li>
+					<a href="gallery.html"><span>Gallery</span></a>
+				</li>
+                <li>
+					<a href="contact.html"><span>Contact</span></a>
+				</li>
+			</ul>
+			<a href="index.html" id="logo"><img src="logo.jpg" alt="Logo"></a>
+		</div>
+		<div id="body">
+			<div class="blog">
+				<div id="content">
+					<h2>Loves to Work</h2>
+					<ol>
+						<li>
+							<h3>Web Design & Development</h3>
+							<p>I works for designing websites which fit into the new trends, but also, stand out in their own way. I have an array of exclusive designs to choose from. I do believe that any website design evolves with an ‘Idea’. Hence, lot of brainstorming is done before selecting a design, theme and graphics of a website. A website should speak for your company, with just minimal words, and I plan to create, just that.</p>
+						</li>
+						<li>
+							<h3>Digital Marketing</h3>
+							<p>A website is the reflection of the company. It take years to set up a company to a peak, Now a days website plays an imporant role in the market, I do provide the best SEO service by which the ranking of the website on search engine will increase. I also help them to create more leads for their company by providing them the appropriate keywords. As Google is the biggest search engine and leads provider, Google AdWords is specialityof me.</p>
+						</li>
+						<li>
+							<h3>Photography</h3>
+							<p>Yes! I do photography as well, it feel good to capture the moment you are really looking for. It all started when i was in my bachelore degree program and i was handed with a camera to click some moment of the festival, I tried and did very well.So, I took some professional training and here I am, I help to get the perfect click for the perfect website.</p>
+						</li>
+					</ol>	
+				</div>
+				<div id="sidebar">
+					<div id="recentpost">
+						<h3>Recent Post</h3>
+						<ul>
+							<li>
+								<a href="index.html"><img src="bird.jpg" alt="Image"></a>
+								<h2><a href="index.html">News</a></h2>
+								<p>
+                                    Competitions , Challenges<br>
+                                    Participate and Win<br>
+                                </p>
+							</li>
+						</ul>
+					</div>
+					<div id="archive">
+						<h3>High rated pics</h3>
+						<ul>
+							<li>
+								<a href="index.html">Great wall </a>
+							</li>
+							<li>
+								<a href="index.html">Statue</a>
+							</li>
+							<li>
+								<a href="index.html">CN Tower </a>
+							</li>
+							<li>
+								<a href="index.html">Under Water </a>
+							</li>
+							<li>
+								<a href="index.html">Cloudy </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<div>
+					<span>Follow:</span><br>
+					<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="fb.png" alt="fb1"/></a>
+					<a href="https://twitter.com/" target="_blank" id="twitter"><img src="twitter.png" alt="twit1"/></a>
+					<a href="https://www.instagram.com/?hl=en" target="_blank" id="insta"><img src="insta.gif" alt="insta1"/></a>
+				</div>
+				<p>
+					&copy; Copyright 2018. All rights reserved &reg;
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
